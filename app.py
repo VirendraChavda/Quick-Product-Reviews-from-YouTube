@@ -8,7 +8,7 @@ import time
 
 
 if "search_keyword" and "analysis_submitted" not in st.session_state:
-    st.session_state["aai_api_key"] = '08d0a4c4a98341adbe2f3c0eb224dc69'
+    st.session_state["aai_api_key"] = '<your assemblyai api key>'
     st.session_state["search_keyword"] = ""
     st.session_state["analysis_submitted"] = False
     st.session_state["video_list"] = None
@@ -52,7 +52,7 @@ if st.session_state["aai_api_key"] != "" and st.session_state["search_keyword"] 
     video_list = None
 
     if not st.session_state["analysis_submitted"]:
-        yt_api_key = 'AIzaSyACuaHf26JpcFFOxXw-wDUbPPoWncmRd6w'
+        yt_api_key = '<your youtube api key>'
         video_list = search_yt(yt_api_key, st.session_state["search_keyword"])  
     else:
         video_list = st.session_state["video_list"]
