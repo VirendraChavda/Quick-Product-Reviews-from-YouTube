@@ -20,9 +20,9 @@ This repository contains the code for an application that extracts and summarize
 Finding reliable product information can be overwhelming with the vast number of YouTube reviews available. This app allows users to search for a product, select relevant YouTube review videos, and receive a concise summary of the product’s Pros and Cons based on these reviews. By leveraging **YouTube Data API** for video selection and **AssemblyAI** for transcription, the app provides valuable insights with minimal effort from the user.
 </p>
 
-![HomePage](/snap1.png)
-![Video Selection](/snap2.png)
-![Results](/snap3.png)
+![HomePage](snap1.png)
+![Video Selection](snap2.png)
+![Results](snap3.png)
 
 ## Features
 * **Keyword-Based Video Search**: Search for videos related to a specific product directly within the app.
